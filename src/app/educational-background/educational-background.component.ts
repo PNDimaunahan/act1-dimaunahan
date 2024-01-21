@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-educational-background',
   templateUrl: './educational-background.component.html',
-  styleUrl: './educational-background.component.css'
+  styleUrl: '../../../node_modules/bootstrap/dist/css/bootstrap.min.css' //this is because of the installation of angular, three folder to get in node module.
 })
 export class EducationalBackgroundComponent {
 
